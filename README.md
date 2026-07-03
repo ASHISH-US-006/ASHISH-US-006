@@ -6,14 +6,25 @@
 
 <br/>
 
-[![Portfolio Views](https://komarev.com/ghpvc/?username=ashish06-official&label=Profile%20Views&color=00F7FF&style=flat-square)](https://github.com/ashish06-official)
+[![Profile Views](https://komarev.com/ghpvc/?username=ashish06-official&label=Profile%20Views&color=00F7FF&style=flat-square)](https://github.com/ashish06-official)
 [![GitHub followers](https://img.shields.io/github/followers/ashish06-official?label=Followers&style=flat-square&color=7F00FF)](https://github.com/ashish06-official?tab=followers)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Solving_Daily-orange?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/CoolDude__006/)
+[![Open to Internships](https://img.shields.io/badge/Open_to-AI%2FML_Internships-brightgreen?style=flat-square)](mailto:usashish006@gmail.com)
+
+<p align="center">
+<a href="#about">About</a> •
+<a href="#education">Education</a> •
+<a href="#stack">Tech Stack</a> •
+<a href="#projects">Projects</a> •
+<a href="#stats">GitHub Stats</a> •
+<a href="#learning">Currently Learning</a> •
+<a href="#goals">2026 Goals</a> •
+<a href="#connect">Connect</a>
+</p>
 
 </div>
 
----
-
+<a name="about"></a>
 ## 🚀 About Me
 
 ```python
@@ -28,6 +39,9 @@ class Ashish:
 
     def daily_routine(self):
         return "Solve a problem, ship something small, learn one new concept."
+
+    def __repr__(self):
+        return f"<Ashish role='{self.role}' status='building & learning'>"
 ```
 
 - 🎓 3rd Year B.E. student in **AI & Machine Learning**, VTU
@@ -35,11 +49,12 @@ class Ashish:
 - 💻 Building real, working AI applications — not just tutorials
 - 🧠 Genuinely enjoy the process of learning; I show up and put in the reps daily
 - 🎯 Long-term goal: become an AI/ML engineer who ships production-ready systems
-- 🤝 Also help organize events for my department (hackathons, technical sessions)
+- 🤝 Also help organize departmental events (hackathons, technical sessions)
 - ⚡ Fun fact: I solve at least one coding problem every day, no exceptions
 
 ---
 
+<a name="education"></a>
 ## 🎓 Education
 
 | | |
@@ -52,6 +67,7 @@ class Ashish:
 
 ---
 
+<a name="stack"></a>
 ## 🛠️ Tech Stack
 
 **Languages & Web**
@@ -66,18 +82,85 @@ class Ashish:
 
 <img src="https://skillicons.dev/icons?i=git,github,vscode,linux" />
 
+### 📈 Skill Proficiency
+
+| Skill | Level |
+|---|---|
+| 🐍 Python | ![](https://progress-bar.dev/85?width=250) |
+| 🤖 Machine Learning | ![](https://progress-bar.dev/75?width=250) |
+| 🧠 Deep Learning | ![](https://progress-bar.dev/65?width=250) |
+| 👁️ Computer Vision | ![](https://progress-bar.dev/60?width=250) |
+| 🗄️ SQL / Databases | ![](https://progress-bar.dev/70?width=250) |
+| 🔧 Git & GitHub | ![](https://progress-bar.dev/80?width=250) |
+
+*Self-assessed — update the percentages as you grow.*
+
 ---
 
+<a name="projects"></a>
 ## 🧩 Featured Projects
 
-<!-- 🔧 Update the repo links below to point to your actual GitHub repositories -->
+<!-- 🔧 Replace the "#" links below with your actual GitHub repository URLs -->
 
-| Project | What it does | Built With |
-|---|---|---|
-| **🖥️ Offline Student Productivity Suite** | Fully offline desktop app for students — to-do list, notes, checklists, study planner, and time-based reminders, backed by local SQLite storage with zero external dependencies. | `Python` `Tkinter` `SQLite` |
-| **👁️ EyeGuard AI** | Standalone eye-care companion app with AI-driven symptom analysis, screen time tracking, and an in-app care guide, powered by live AI responses. | `HTML` `JavaScript` `Anthropic API` |
-| **📊 AI Employee Churn Predictor** | Interactive HR analytics dashboard that scores attrition risk, breaks down contributing factors, and generates retention recommendations in real time. | `HTML/JS` `ML Model` `Anthropic API` |
-| **📋 Employee Attrition Data Tool** | Structured HR data-entry interface built around IBM HR Analytics features, feeding a downstream attrition prediction model. | `HTML` `Data Engineering` |
+<details>
+<summary><strong>🖥️ Offline Student Productivity Suite</strong></summary>
+<br>
+
+**Problem:** Students need a reliable, distraction-free tool that works with zero internet dependency.
+
+**What I built:** A fully offline desktop app with a to-do list, notes, checklists, a study planner, and time-based reminders — all backed by local SQLite storage.
+
+**Tech:** `Python` `Tkinter` `SQLite`
+
+**Highlights:** Zero external dependencies, cross-platform reliability, fully local data persistence.
+
+[🔗 View Repo](#)
+</details>
+
+<details>
+<summary><strong>👁️ EyeGuard AI</strong></summary>
+<br>
+
+**Problem:** Students spend hours on screens with no easy way to monitor eye strain or get quick guidance.
+
+**What I built:** A standalone eye-care companion app with AI-driven symptom analysis, screen time tracking, and an in-app care guide, powered by live AI responses.
+
+**Tech:** `HTML` `JavaScript` `Anthropic API`
+
+**Highlights:** Delivered as a single downloadable file — no install, no backend required.
+
+[🔗 View Repo](#)
+</details>
+
+<details>
+<summary><strong>📊 AI Employee Churn Predictor</strong></summary>
+<br>
+
+**Problem:** HR teams need fast, explainable insight into which employees are at risk of leaving.
+
+**What I built:** An interactive dashboard that scores attrition risk, breaks down contributing factors, and generates retention recommendations in real time.
+
+**Tech:** `HTML/JS` `ML Model` `Anthropic API`
+
+**Highlights:** Single-page app, calls the AI model directly from the browser.
+
+[🔗 View Repo](#)
+</details>
+
+<details>
+<summary><strong>📋 Employee Attrition Data Tool</strong></summary>
+<br>
+
+**Problem:** Attrition models are only as good as the data feeding them.
+
+**What I built:** A structured HR data-entry interface built around IBM HR Analytics features, feeding a downstream attrition prediction model.
+
+**Tech:** `HTML` `Data Engineering`
+
+**Highlights:** Clean, structured input pipeline designed for model-readiness.
+
+[🔗 View Repo](#)
+</details>
 
 <div align="center">
 
@@ -87,17 +170,38 @@ class Ashish:
 
 ---
 
+<a name="stats"></a>
 ## 📊 GitHub Analytics
 
 <table align="center">
 <tr>
-<td><img src="https://github-readme-stats.vercel.app/api?username=ashish06-official&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" /></td>
-<td><img src="https://github-readme-streak-stats.herokuapp.com/?user=ashish06-official&theme=tokyonight&hide_border=true" /></td>
+<td>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ashish06-official&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ashish06-official&show_icons=true&theme=default&hide_border=true&count_private=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ashish06-official&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Ashish's GitHub stats" />
+</picture>
+
+</td>
+<td>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=ashish06-official&theme=tokyonight&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=ashish06-official&theme=default&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ashish06-official&theme=tokyonight&hide_border=true" alt="Ashish's GitHub streak" />
+</picture>
+
+</td>
 </tr>
 </table>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ashish06-official&layout=compact&theme=tokyonight&hide_border=true" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ashish06-official&layout=compact&theme=tokyonight&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ashish06-official&layout=compact&theme=default&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ashish06-official&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+</picture>
 </p>
 
 <p align="center">
@@ -105,14 +209,22 @@ class Ashish:
 </p>
 
 <p align="center">
-
-[![Ashish's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ashish06-official&theme=react-dark&hide_border=true)](https://github.com/ashish06-official)
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=ashish06-official&theme=react-dark&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=ashish06-official&theme=minimal&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ashish06-official&theme=react-dark&hide_border=true" alt="Ashish's activity graph" />
+</picture>
 </p>
 
 <p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ashish06-official/ashish06-official/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ashish06-official/ashish06-official/output/github-contribution-grid-snake.svg" />
   <img src="https://raw.githubusercontent.com/ashish06-official/ashish06-official/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+</picture>
 </p>
+
+<!-- If your snake workflow only outputs the dark SVG, that's fine — the img fallback above already handles it. -->
 
 ---
 
@@ -124,6 +236,7 @@ class Ashish:
 
 ---
 
+<a name="learning"></a>
 ## 📚 Currently Learning
 
 - 🧠 Deep Learning (CNNs, RNNs, Transformers)
@@ -134,6 +247,7 @@ class Ashish:
 
 ---
 
+<a name="goals"></a>
 ## 🎯 2026 Goals
 
 - [ ] Complete 15+ AI/ML projects
@@ -145,6 +259,7 @@ class Ashish:
 
 ---
 
+<a name="connect"></a>
 ## 🌐 Connect With Me
 
 <p align="left">
@@ -160,6 +275,6 @@ class Ashish:
 
 > "The best way to predict the future is to build it."
 
-<img src="https://komarev.com/ghpvc/?username=ashish06-official&label=Profile%20Views&color=blue&style=flat"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F00FF,100:00F7FF&height=120&section=footer" width="100%"/>
 
 </div>
